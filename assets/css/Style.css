@@ -1,0 +1,243 @@
+/*Index y fuente*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    text-align: center;
+    color: #000f08;
+    font-family: "Open Sans";
+}
+
+/*Navbar*/
+
+nav{
+    background-color: #000f08;
+    color: white;
+    text-align: left;
+    padding: 25px 115px;
+    font-size: 25px;
+}
+
+nav li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+    }
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    }
+
+.nav-icon{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(270deg) brightness(100%) contrast(102%);
+    }
+
+/*hero*/
+
+.header-img{
+    text-align: right;
+    background-image: url("../img/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    text-shadow: 0px 3px 6px #00000080;
+}
+
+h1{
+    font-size: 60px;
+    letter-spacing: 1.5px;
+    text-shadow: 0px 3px 6px #00000080;
+    font-weight: 800;
+}
+
+/*Ubicación*/
+
+#Ubicacion{
+    /* padding: 150px; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#Ubicacion img{
+    height: 200px;
+    width: 300px;
+}
+
+#Ubicacion h2{
+    font-size: 45px;
+    margin: 40px 0px 20px 0px;
+}
+#Ubicacion p{
+    font-size: 25px;
+}
+    
+/*Prox Charla*/
+
+#Proxima-Charla{
+    background: #A4452C;
+    background-repeat: no-repeat;
+    padding: 100px;
+    color: white;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#Proxima-Charla img{
+    height: 300px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+#Proxima-Charla img,
+#Proxima-Charla .texto{
+    display: flex;
+    flex-direction: column;
+}
+
+#Proxima-Charla .texto{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 40px;
+    justify-content: start;
+    align-items: start;
+    text-align: left;
+}
+    
+#Proxima-Charla .texto h3{
+    font-size: 45px;
+}
+    
+#Proxima-Charla .texto h4{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+  
+#Proxima-Charla .texto h6{
+    font-size: 33px;
+}
+    
+#Proxima-Charla .texto span{
+    font-size: 20px;
+}
+
+#Proxima-Charla .texto p{
+    font-size: 25px;
+}
+  
+#Proxima-Charla .texto h6,
+#Proxima-Charla span,
+#Proxima-Charla p{
+font-weight: 400;
+}
+
+/*Evento*/
+
+.eventocontenedor{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+}
+
+.eventocontenedor h1{
+    margin: 20px;
+}
+
+.eventos-container{
+    display: flex;
+    justify-content: center;
+}
+
+.evento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.evento img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.evento p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/*footer*/
+
+footer{
+    background-color: #000f08;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 60px 40px 5px 40px;
+    font-size: 25px;
+    height: 184px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.link-footer{
+    display: flex;
+    justify-content: center;
+}
+   
+.link-footer a{
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+    width: 70px;
+    height: 70px;
+}
+    
+.parrafo-footer p{
+    margin-top: 30px;
+}
+    
+/*evento1*/
+
+.simposio-vegan{
+    width: 1080px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+.simposio-vegan img{
+    width: 100%;
+    height: 560px;
+    margin: 40px 0;
+}
+
+.simposio-vegan h1{
+    font-size: 45px;
+}
+
+.simposio-vegan h2{
+    font-size: 40px;
+}
+
+.simposio-vegan p{
+    margin: 30px 0;
+    font-size: 25px;
+    letter-spacing: 0;
+    color: #000F08;
+    text-shadow: none;
+    opacity: 1;
+}
+    
